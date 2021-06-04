@@ -71,4 +71,4 @@ ADASYN | 0.2434 | -
 > Due random initialization of network parameters while training, the PBE results vary each time the framework is executed.
 
 ## Licence:
-[MIT](https://www.mit.edu/~amini/LICENSE.md)
+[MIT](https://opensource.org/licenses/MIT)
