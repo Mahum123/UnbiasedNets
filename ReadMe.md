@@ -60,7 +60,7 @@ chmod +x execute.sh
 ```
 
 ## Results
-Approach\Datasets | Average PBE (Leukemia) | Average PBE (Iris)
+Approach\Dataset | Average PBE (Leukemia) | Average PBE (Iris)
 ---------------------- | -----------------------------| ----------------------
 Original | 0.228 | 0.4732
 RUS | 0.1710 | 0.5042
