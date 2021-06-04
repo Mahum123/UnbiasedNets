@@ -70,5 +70,5 @@ ADASYN | 0.2434 | -
 *UnbiasedNets* | 0.1236 | 0.4906
 > Due random initialization of network parameters while training, the PBE results vary each time the framework is executed.
 
-## Licence:
-[MIT](https://opensource.org/licenses/MIT)
+## License:
+[MIT License](https://opensource.org/licenses/MIT)
