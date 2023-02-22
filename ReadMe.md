@@ -1,7 +1,10 @@
-# *UnbiasedNets*:A Dataset Diversification Framework for Bias Alleviation in Robust Neural Networks
+# *UnbiasedNets*:A Dataset Diversification Framework for Robustness Bias Alleviation in Neural Networks
+
+Please refer to or cite the following publication:
+M. Naseer, B. S. Prabakaran, O. Hasan, M. Shafique, “UnbiasedNets: A Dataset Diversification Framework for Robustness Bias Alleviation in Neural Networks”, Springer - Machine Learning (Special Issue on Safe and Fair Machine Learning).
 
 ## Requirements:
-The following softwares and packagges are required to run *UnbiasedNets*
+The following softwares and packages are required to run *UnbiasedNets*
 * Matlab (versions tested with: R2017b, R2019a)
 * Python (versions tested with: 3.7.6, 3.7.9, 3.8.8)
 * GCC (versions tested with: 4.8.5 - *version 9.3.0 is not compatible with the current generation of UnbiasedNets*)
@@ -17,7 +20,7 @@ For Iris
 * Sample randomly undersampled Training Dataset (Iris/Datasets/iris_train_RUS.csv)
 * Sample SMOTE Training Dataset (Iris/Datasets/iris_train_SMOTE.csv)
 
- For Lukemia 
+ For Leukemia 
 * Training and Testing Datasets (Leukemia/Matlab/Datasets/train_data.csv and Leukemia/Matlab/Datasets/test_data.csv)
 * Sample randomly oversampled Training Dataset (Leukemia/Matlab/Datasets/train_ROS.csv)
 * Sample ADASYN Training Dataset (Leukemia/Matlab/Datasets/train_ADASYN.csv)
@@ -68,7 +71,7 @@ ROS | 0.2213 | 0.8059
 SMOTE | 0.1452 | 0.7709
 ADASYN | 0.2434 | -
 *UnbiasedNets* | 0.1236 | 0.4906
-> Due random initialization of network parameters while training, the PBE results vary each time the framework is executed.
+> Due to random initialization of network parameters while training, the PBE results vary each time the framework is executed.
 
 ## License:
 [MIT License](https://opensource.org/licenses/MIT)
